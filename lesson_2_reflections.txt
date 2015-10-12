@@ -14,3 +14,4 @@ How is the staging area different from the working directory and the repository?
 	Staging area actually contains files that are ready to be committed / the working directory may contain files we don;t want to commit such as log files or temp files
 	The repository contains files that are committed and can be shared with other user or stored in an online repository
 	
+***This is just a test****
