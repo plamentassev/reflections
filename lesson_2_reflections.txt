@@ -15,3 +15,4 @@ How is the staging area different from the working directory and the repository?
 	The repository contains files that are committed and can be shared with other user or stored in an online repository
 	
 ***This is just a test****
+***This is a second test****
