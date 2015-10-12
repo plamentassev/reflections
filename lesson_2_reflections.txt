@@ -16,3 +16,5 @@ How is the staging area different from the working directory and the repository?
 	
 ***This is just a test****
 ***This is a second test****
+git config --global core.editor "[your editor] -w"
+git config --global --add core.editor "C:\Program Files (x86)\Notepad++\notepad++.exe -w"
