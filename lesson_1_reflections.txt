@@ -1,0 +1,64 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+git diff - find diferences git diff. git diff considers the first argument as the "original",+
+		and the second argument as the "new" version, so additions are lines present in the second argument but not the first
+git clone
+scp -secure copy, only grabs the content not the history (commits) of a repository
+git log -  changes (commits) log, starts from the last change made to the repository
+git init -  create repository
+git status - show which files have changed since the last commit
+
+    I can use diff file1 file2
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Easy to switch versions, no need to save different versions just work from the same file
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+   Pros: I have full control of when to make physical changes to the files.
+   This means diff versions will have dif logical versions of files
+   
+   Cons:
+   I may not save the version I want and lose my data, also error prone
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Again it is based on the physical vs logical structure of saving / systems
+	
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git diff will give me the difference in files 
+	git log will give me the history of changes
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It is very easy to roll back to older version / or switch between versions
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I will prob use it for this class some and for work
+	
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	It is much more easier to share ideas with other developers and collaborate
+	It will make me more confided in my work and improve my skillset as a whole
+	
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	
+	Git allows files to be be committed together because it is a distributed repository and takes a snapshot of all files in a repository at a given time
+	Google Docs is more like a central repository and therefore files can be tracked "one a time"
+	
+How can you use the commands git log and git diff to view the history of files?
+
+	git diff - difference between 2 files ++ added --deleted
+	git log  - more of a snapshot (all changes in the repository)
+	git checkout is different than svn checkout in a sense that it takes version of the files in specific commit
+	
+	

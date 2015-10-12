@@ -1,0 +1,16 @@
+git diff -	 	-	find diferences git diff. git diff considers the first argument as the "original",+
+					and the second argument as the "new" version, so additions are lines present in the second argument but not the first
+git clone
+scp 			-	secure copy, only grabs the content not the history (commits) of a repository
+git log 		-  	changes (commits) log, starts from the last change made to the repository
+git init 		-  	create repository
+git status 		- 	show which files have changed since the last commit
+git add			-	adds files to the repository
+
+What happens when you initialize a repository? Why do you need to do it?
+	Initialized is an empty repository. I guess we need git that we are starting a new repository, we can only add files to and existing repository, so it is a 2 step process
+	
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	Staging area actually contains files that are ready to be committed / the working directory may contain files we don;t want to commit such as log files or temp files
+	The repository contains files that are committed and can be shared with other user or stored in an online repository
+	
